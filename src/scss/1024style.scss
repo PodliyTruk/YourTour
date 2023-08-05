@@ -1,0 +1,157 @@
+// .travel-history__new-grid-description-1 {
+//     color: #470000;
+// }
+
+// $containerWidth1024: 1070px;
+
+@media (max-width: 1026px) {
+    .header {
+        width: 1024px;
+        // background-image: url("@img/header1024px.jpg");
+        .block-button {
+            bottom: -1px;
+        }
+        p {
+            width: 442px;
+        }
+    }
+    .header__menu {
+        width: inherit;
+        .menu__side-info {
+            gap: 82.58px;
+        }
+        .menu__list {
+            gap: 30px;
+        }
+    }
+    .page {
+        width: 1024px;
+        .container {
+            width: 918px;
+            .tabs {
+                height: 1629px;
+            }
+            .tabs__content {
+                bottom: 64px;
+            }
+            .choose-tour__new-grid {
+                grid-template-columns: repeat(2, 3fr);
+                gap: 18px;
+            }
+            .choose-tour__new-grid-item {
+                width: 450px;
+                height: 531px;
+            }
+            .choose-tour__text-info {
+                width: 350px;
+                letter-spacing: -0.3px;
+            }
+            
+        }
+    }
+    .create-tour__grid {
+        width: 918px;
+        padding: 60px;
+        height: 966px;
+        .create-tour__grid-item {
+            width: 798px;
+            gap: 20px;
+        }
+        .create-tour__form {
+            width: 389px;
+        }
+        .select-direction__wrapper::before {
+            right: 16px;
+        }
+        .create-tour__input {
+            width: 389px;
+        }
+        .create-tour__select {
+            width: 389px;
+        }
+        .checkbox {
+            margin-right: 11px;
+        }
+        .create-tour__textarea {
+            width: 798px;
+        }
+        .create-tour__btns-form {
+            position: relative;
+            bottom: 1px;
+        }
+    }
+
+    .reviews__grid {
+        width: 918px;
+        height: 841px;
+        gap: 18px;
+        .reviews__grid-item {
+            width: 450px;
+            height: 841px;
+        }
+        .reviews__reviewer-info {
+            width: 370px;
+        }
+    }
+    
+    .travel-photos__grid {
+        width: 1024px;
+        padding: 0px 20px;
+        .travel-photos__grid-items {
+            gap: 20px;
+        }
+        .imagegrid {
+            width: 314px;
+            height: 300px;
+        }
+         .imagegrid-2, .imagegrid-7, .imagegrid-13 {
+            visibility: collapse;
+            display: none;
+        }
+        .travel-photos__grid-items_item-1 {
+            position: relative;
+            top: -2px;
+        }
+        .travel-photos__grid-items_item-2 {
+            .imagegrid {
+                width: 231px;
+            }
+        }
+        .travel-photos__grid-items_item-3 {
+            gap: 21px;
+            position: relative;
+            top: 2px;
+        }
+    }
+    .hidden-picture {
+        visibility: collapse;
+        display: none;
+    }
+    .travel-history__new-grid {
+        gap: 50px;
+        position: relative;
+        .travel-history__new-grid-item {
+            width: 918px;
+            bottom: 0px;
+        }
+    }
+    .time-to-travel {
+        margin-top: 0px;
+        .time-to-travel__text-header {
+            letter-spacing: -0.3px;
+        }
+        .time-to-travel__text-content {
+            letter-spacing: -0.1px;
+            //normal
+        }
+    }
+
+    footer {
+        width: 1024px;
+        .footer__container {
+            width: 918px;
+        }
+    }
+
+    
+}
